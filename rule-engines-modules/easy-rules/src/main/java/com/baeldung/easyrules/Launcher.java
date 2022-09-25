@@ -5,6 +5,10 @@ import org.jeasy.rules.api.Rules;
 import org.jeasy.rules.api.RulesEngine;
 import org.jeasy.rules.core.DefaultRulesEngine;
 
+/**
+ * 支持分支/并行/顺序执行的规则引擎
+ * 支持参数传递
+ */
 public class Launcher {
     public static void main(String... args) {
         // create facts
