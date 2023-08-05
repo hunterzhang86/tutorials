@@ -39,8 +39,16 @@
         </dependency>
     </dependencies>
 
-    <properties>
-        <aspectj-plugin.version>1.11</aspectj-plugin.version>
-    </properties>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <configuration>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

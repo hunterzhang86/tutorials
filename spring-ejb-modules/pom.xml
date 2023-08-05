@@ -17,6 +17,7 @@
     </parent>
 
     <modules>
+        <!--<module>ejb-beans</module> JAVA-22440 need to upgrade to java 17 -->
         <module>spring-ejb-remote</module>
         <module>spring-ejb-client</module>
         <module>wildfly</module>
@@ -54,23 +55,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-    <repositories>
-        <repository>
-            <id>jboss-public-repository-group</id>
-            <name>JBoss Public Maven Repository Group</name>
-            <url>http://repository.jboss.org/nexus/content/groups/public/</url>
-            <layout>default</layout>
-            <releases>
-                <enabled>true</enabled>
-                <updatePolicy>never</updatePolicy>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>never</updatePolicy>
-            </snapshots>
-        </repository>
-    </repositories>
 
     <build>
         <pluginManagement>
