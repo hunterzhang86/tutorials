@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>spring-reactive-2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-5-reactive-2</name>
+    <name>spring-reactive-2</name>
     <packaging>jar</packaging>
-    <description>spring 5 sample project about new features</description>
+    <description>spring sample project about new features</description>
 
     <parent>
         <groupId>com.baeldung.spring.reactive</groupId>
@@ -58,6 +58,10 @@
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
         </dependency>
     </dependencies>
 
